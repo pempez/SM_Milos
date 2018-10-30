@@ -31,3 +31,6 @@ _ReSharper*/
 pregledMilos/.vs/pregledMilos/v15/Server/sqlite3/storage.ide-wal
 pregledMilos/.vs/pregledMilos/v15/Server/sqlite3/storage.ide
 pregledMilos/.vs/pregledMilos/v15/Server/sqlite3/storage.ide-shm
+*.cache
+*.cache
+*.cache
