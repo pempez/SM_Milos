@@ -1,0 +1,7 @@
+X:\MILAN\StirMet\app\pregledMilos\pregledMilos\bin\Release\pregledMilos.exe
+X:\MILAN\StirMet\app\pregledMilos\pregledMilos\bin\Release\pregledMilos.pdb
+X:\MILAN\StirMet\app\pregledMilos\pregledMilos\obj\x86\Release\pregledMilos.Form1.resources
+X:\MILAN\StirMet\app\pregledMilos\pregledMilos\obj\x86\Release\pregledMilos.Properties.Resources.resources
+X:\MILAN\StirMet\app\pregledMilos\pregledMilos\obj\x86\Release\pregledMilos.csproj.GenerateResource.Cache
+X:\MILAN\StirMet\app\pregledMilos\pregledMilos\obj\x86\Release\pregledMilos.exe
+X:\MILAN\StirMet\app\pregledMilos\pregledMilos\obj\x86\Release\pregledMilos.pdb
