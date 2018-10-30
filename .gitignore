@@ -27,3 +27,7 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+*.lock
+pregledMilos/.vs/pregledMilos/v15/Server/sqlite3/storage.ide-wal
+pregledMilos/.vs/pregledMilos/v15/Server/sqlite3/storage.ide
+pregledMilos/.vs/pregledMilos/v15/Server/sqlite3/storage.ide-shm

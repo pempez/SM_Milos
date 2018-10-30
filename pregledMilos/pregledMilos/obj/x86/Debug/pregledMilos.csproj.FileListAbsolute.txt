@@ -21,3 +21,15 @@ X:\MILAN\StirMet\app\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.csproj
 X:\MILAN\StirMet\app\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.csproj.CoreCompileInputs.cache
 X:\MILAN\StirMet\app\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.exe
 X:\MILAN\StirMet\app\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.pdb
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\bin\Debug\pregledMilos.exe.config
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\bin\Debug\pregledMilos.exe
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\bin\Debug\pregledMilos.pdb
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.csprojAssemblyReference.cache
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.Form1.resources
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.FormProgressBar.resources
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.FormUkupnoNaloga.resources
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.Properties.Resources.resources
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.csproj.GenerateResource.cache
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.csproj.CoreCompileInputs.cache
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.exe
+d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.pdb

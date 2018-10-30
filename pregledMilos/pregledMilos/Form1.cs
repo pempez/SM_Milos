@@ -42,7 +42,7 @@ namespace pregledMilos
             cbSifraProjekta.SelectedIndex = -1;
 
 
-           // groupBox3.Paint += PaintBorderlessGroupBox;
+           //  groupBox3.Paint += PaintBorderlessGroupBox;
            
 
         }
