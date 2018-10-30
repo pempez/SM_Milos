@@ -15,7 +15,6 @@ namespace pregledMilos
         {
             InitializeComponent();
             button1_Click(null, null);
-
         }
 
         public GroupBox GetGroupBox()
