@@ -22,7 +22,10 @@ namespace pregledMilos
         {
             return groupBox1;
         }
-
+        private void test()
+        {
+            string a = "";
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             DataTable dt = metode.DB.baza_upit("SELECT        TOP (100) PERCENT Status, " +
