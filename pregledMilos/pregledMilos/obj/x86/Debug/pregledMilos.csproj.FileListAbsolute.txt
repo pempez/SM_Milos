@@ -31,4 +31,5 @@ d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.Pr
 d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.csproj.GenerateResource.cache
 d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.exe
 d:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.pdb
-d:\MILAN\GitHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.csprojResolveAssemblyReference.cache
+D:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.csprojAssemblyReference.cache
+D:\MILAN\GITHub\SM_Milos\pregledMilos\pregledMilos\obj\x86\Debug\pregledMilos.csproj.CoreCompileInputs.cache
