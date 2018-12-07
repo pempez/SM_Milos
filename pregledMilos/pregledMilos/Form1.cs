@@ -145,8 +145,8 @@ namespace pregledMilos
                          " dbo.[Stirg Produkcija$Production Order].Quantity AS Količina, dbo.[Stirg Produkcija$Production Order].[Starting Date] AS [Početni datum], dbo.[Stirg Produkcija$Production Order].[Ending Date] AS [Krajnji datum],  " +
                         "  dbo.[Stirg Produkcija$Production Order].[Due Date] AS [Datum dospeca], dbo.[Stirg Produkcija$Production Order].[External Document No_] AS [broj eksternog dokumenta],  " +
                         "  dbo.[Stirg Produkcija$Production Order].[Location Code] AS [šifra lokacije], dbo.[Stirg Produkcija$Production Order].[Shortcut Dimension 1 Code] AS [šifra projekta],  " +
-                        "  dbo.[Stirg Produkcija$Production Order].[Source No_] AS [broj izvora], dbo.[Stirg Produkcija$Production Order].[Routing No_] AS [broj proizvodnog postupka]  FROM [Stirg Produkcija$Production Order] " +
-                   "  INNER JOIN dbo.[Stirg Produkcija$Prod_ Order Line] ON dbo.[Stirg Produkcija$Production Order].No_ = dbo.[Stirg Produkcija$Prod_ Order Line].[Prod_ Order No_] ";
+                        "  dbo.[Stirg Produkcija$Production Order].[Source No_] AS [broj izvora], dbo.[Stirg Produkcija$Production Order].[Routing No_] AS [broj proizvodnog postupka] " +
+                        " FROM [Stirg Produkcija$Production Order]  INNER JOIN dbo.[Stirg Produkcija$Prod_ Order Line] ON dbo.[Stirg Produkcija$Production Order].No_ = dbo.[Stirg Produkcija$Prod_ Order Line].[Prod_ Order No_] ";
 
             if (cbRadnik.Text != "" || cbSmena.Text != "" || cbRadniCentar.Text != "" || cbPeriodOJD.Checked)
             {
@@ -511,7 +511,8 @@ namespace pregledMilos
         private void ucitajProdOrderRoutingLine(string prodOrderNo, string referenceNo, string routingNo)
         {
             DataTable dt = metode.DB.baza_upit(" select [Routing Reference No_] as [referentni broj proizvodnog postupka], [Operation No_] as [Broj operacije]," +
-                " 'Radni centar' as Vrsta,[Work Center No_] as Broj, Description as Opis ,[Setup Time] as [vreme podešavanja], [Run Time] as [vreme izvođenja], [Send-Ahead Quantity] as [unapred poslata količina], [Concurrent Capacities] as  [uporedni kapaciteti] FROM            [Stirg Produkcija$Prod_ Order Routing Line]" +
+                " 'Radni centar' as Vrsta,[Work Center No_] as Broj, Description as Opis ,[Setup Time] as [vreme podešavanja], [Run Time] as [vreme izvođenja], [Send-Ahead Quantity] as [unapred poslata količina], [Concurrent Capacities] as  [uporedni kapaciteti] " +
+                " FROM            [Stirg Produkcija$Prod_ Order Routing Line]" +
                  " WHERE        ([Prod_ Order No_] = N'" + prodOrderNo + "') AND ([Routing Reference No_] = '" + referenceNo + "')");
 
             if (dt.Rows.Count > 0)
@@ -1464,6 +1465,7 @@ namespace pregledMilos
             DateTime doo = new DateTime(dtpOJDdo.Value.Year, dtpOJDdo.Value.Month, dtpOJDdo.Value.Day, 23, 59, 59);
             dtpOJDdo.Value = doo;
         }
+
     }
 
 }
