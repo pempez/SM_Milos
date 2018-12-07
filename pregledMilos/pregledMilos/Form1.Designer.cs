@@ -338,6 +338,7 @@
             this.dgvOutpuJournalData.TabIndex = 4;
             this.dgvOutpuJournalData.SelectionChanged += new System.EventHandler(this.dgvOutpuJournalData_SelectionChanged);
             this.dgvOutpuJournalData.Sorted += new System.EventHandler(this.dgvOutpuJournalData_Sorted);
+          
             this.dgvOutpuJournalData.MouseEnter += new System.EventHandler(this.dgvOutpuJournalData_MouseEnter);
             // 
             // dtpDatumDo
