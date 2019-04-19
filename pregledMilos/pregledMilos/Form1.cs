@@ -1466,6 +1466,10 @@ namespace pregledMilos
             dtpOJDdo.Value = doo;
         }
 
+        private void dgvProdOrderLine_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 
 }

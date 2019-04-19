@@ -18,7 +18,7 @@ namespace metode
 
         public static void pristup_bazi(string query)
         {
-            try
+            try//proba za branch
             {
                 TextReader tr = new StreamReader("c:\\Program Files\\SM\\connUpis.txt");
                 connection = tr.ReadLine();

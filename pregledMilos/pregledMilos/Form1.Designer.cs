@@ -159,7 +159,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvProdOrder.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvProdOrder.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvProdOrder.Size = new System.Drawing.Size(958, 193);
+            this.dgvProdOrder.Size = new System.Drawing.Size(911, 190);
             this.dgvProdOrder.TabIndex = 0;
             this.dgvProdOrder.SelectionChanged += new System.EventHandler(this.dgvProdOrder_SelectionChanged);
             this.dgvProdOrder.Sorted += new System.EventHandler(this.dgvProdOrder_Sorted);
@@ -205,7 +205,7 @@
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvProdOrderComponent.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvProdOrderComponent.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvProdOrderComponent.Size = new System.Drawing.Size(574, 185);
+            this.dgvProdOrderComponent.Size = new System.Drawing.Size(547, 190);
             this.dgvProdOrderComponent.TabIndex = 1;
             this.dgvProdOrderComponent.MouseEnter += new System.EventHandler(this.dgvProdOrderComponent_MouseEnter);
             // 
@@ -235,7 +235,7 @@
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvProdOrderLine.DefaultCellStyle = dataGridViewCellStyle8;
-            this.dgvProdOrderLine.Location = new System.Drawing.Point(0, 16);
+            this.dgvProdOrderLine.Location = new System.Drawing.Point(2, 16);
             this.dgvProdOrderLine.MultiSelect = false;
             this.dgvProdOrderLine.Name = "dgvProdOrderLine";
             this.dgvProdOrderLine.ReadOnly = true;
@@ -248,8 +248,9 @@
             dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvProdOrderLine.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgvProdOrderLine.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvProdOrderLine.Size = new System.Drawing.Size(964, 190);
+            this.dgvProdOrderLine.Size = new System.Drawing.Size(914, 186);
             this.dgvProdOrderLine.TabIndex = 2;
+            this.dgvProdOrderLine.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProdOrderLine_CellContentClick);
             this.dgvProdOrderLine.SelectionChanged += new System.EventHandler(this.dgvProdOrderLine_SelectionChanged);
             this.dgvProdOrderLine.Sorted += new System.EventHandler(this.dgvProdOrderLine_Sorted);
             this.dgvProdOrderLine.Click += new System.EventHandler(this.dgvProdOrderLine_Click);
@@ -294,7 +295,7 @@
             dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvProdOrderRoutingLine.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dgvProdOrderRoutingLine.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvProdOrderRoutingLine.Size = new System.Drawing.Size(568, 189);
+            this.dgvProdOrderRoutingLine.Size = new System.Drawing.Size(547, 187);
             this.dgvProdOrderRoutingLine.TabIndex = 3;
             this.dgvProdOrderRoutingLine.MouseEnter += new System.EventHandler(this.dgvProdOrderRoutingLine_MouseEnter);
             // 
@@ -334,11 +335,10 @@
             dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvOutpuJournalData.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.dgvOutpuJournalData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvOutpuJournalData.Size = new System.Drawing.Size(1567, 232);
+            this.dgvOutpuJournalData.Size = new System.Drawing.Size(1491, 232);
             this.dgvOutpuJournalData.TabIndex = 4;
             this.dgvOutpuJournalData.SelectionChanged += new System.EventHandler(this.dgvOutpuJournalData_SelectionChanged);
             this.dgvOutpuJournalData.Sorted += new System.EventHandler(this.dgvOutpuJournalData_Sorted);
-          
             this.dgvOutpuJournalData.MouseEnter += new System.EventHandler(this.dgvOutpuJournalData_MouseEnter);
             // 
             // dtpDatumDo
@@ -380,7 +380,7 @@
             this.panel1.Controls.Add(this.splitContainer3);
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(968, 424);
+            this.panel1.Size = new System.Drawing.Size(922, 423);
             this.panel1.TabIndex = 8;
             // 
             // splitContainer3
@@ -404,8 +404,8 @@
             this.splitContainer3.Panel2.Controls.Add(this.lblPOL);
             this.splitContainer3.Panel2.Controls.Add(this.label2);
             this.splitContainer3.Panel2.Controls.Add(this.dgvProdOrderLine);
-            this.splitContainer3.Size = new System.Drawing.Size(965, 429);
-            this.splitContainer3.SplitterDistance = 214;
+            this.splitContainer3.Size = new System.Drawing.Size(919, 428);
+            this.splitContainer3.SplitterDistance = 211;
             this.splitContainer3.TabIndex = 5;
             // 
             // lblPO
@@ -450,7 +450,7 @@
             this.panel2.Controls.Add(this.splitContainer4);
             this.panel2.Location = new System.Drawing.Point(3, 6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(583, 421);
+            this.panel2.Size = new System.Drawing.Size(557, 420);
             this.panel2.TabIndex = 9;
             // 
             // splitContainer4
@@ -472,8 +472,8 @@
             // 
             this.splitContainer4.Panel2.Controls.Add(this.label4);
             this.splitContainer4.Panel2.Controls.Add(this.dgvProdOrderComponent);
-            this.splitContainer4.Size = new System.Drawing.Size(585, 437);
-            this.splitContainer4.SplitterDistance = 218;
+            this.splitContainer4.Size = new System.Drawing.Size(559, 436);
+            this.splitContainer4.SplitterDistance = 216;
             this.splitContainer4.TabIndex = 7;
             // 
             // label3
@@ -510,8 +510,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.panel2);
-            this.splitContainer1.Size = new System.Drawing.Size(1571, 437);
-            this.splitContainer1.SplitterDistance = 976;
+            this.splitContainer1.Size = new System.Drawing.Size(1499, 436);
+            this.splitContainer1.SplitterDistance = 930;
             this.splitContainer1.TabIndex = 10;
             // 
             // splitContainer2
@@ -533,8 +533,8 @@
             this.splitContainer2.Panel2.Controls.Add(this.label16);
             this.splitContainer2.Panel2.Controls.Add(this.label5);
             this.splitContainer2.Panel2.Controls.Add(this.dgvOutpuJournalData);
-            this.splitContainer2.Size = new System.Drawing.Size(1583, 734);
-            this.splitContainer2.SplitterDistance = 443;
+            this.splitContainer2.Size = new System.Drawing.Size(1511, 734);
+            this.splitContainer2.SplitterDistance = 442;
             this.splitContainer2.TabIndex = 11;
             // 
             // lblOJD
@@ -716,7 +716,7 @@
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox1.Location = new System.Drawing.Point(1285, 1);
+            this.groupBox1.Location = new System.Drawing.Point(1212, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(298, 104);
             this.groupBox1.TabIndex = 29;
@@ -862,7 +862,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.ClientSize = new System.Drawing.Size(1521, 861);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
